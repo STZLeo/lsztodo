@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LSZTodo.Common.Models
 {
-    public class todo
+    public class Todo
     {
         public DateTime CreatedTime { get; set; }
         public String TaskDescription { get; set; }
