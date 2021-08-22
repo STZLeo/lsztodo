@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSZTodo.Common", "LSZTodo.Common\LSZTodo.Common.csproj", "{46671275-F51B-467F-BADE-7769188B98DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSZTodo.Functions", "LSZTodo.Functions\LSZTodo.Functions.csproj", "{E7A746D9-AF2F-4D7B-B6AC-646201FDE9DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSZTodo.Functions", "LSZTodo.Functions\LSZTodo.Functions.csproj", "{E7A746D9-AF2F-4D7B-B6AC-646201FDE9DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSZTodo.Test", "LSZTodo.Test\LSZTodo.Test.csproj", "{4E9D8248-EF31-436C-ACEF-41386761D86E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSZTodo.Test", "LSZTodo.Test\LSZTodo.Test.csproj", "{4E9D8248-EF31-436C-ACEF-41386761D86E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
