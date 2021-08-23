@@ -11,7 +11,8 @@ namespace LSZTodo.Functions.Functions
     public static class ScheduleFunction
     {
         [FunctionName("ScheduleFunction")]
-            public static async Task RunAsync([TimerTrigger("0 */1 * * * *")]TimerInfo myTimer,
+        public static async Task RunAsync(
+            [TimerTrigger("0 */1 * * * *")]TimerInfo myTimer,
             [Table("todo", Connection = "AzureWebJobsStorage")] CloudTable todoTable,
             ILogger log)
         {
@@ -29,5 +30,6 @@ namespace LSZTodo.Functions.Functions
             log.LogInformation($"Deleted {deleted} items at: {DateTime.Now}");
            
         }
+
     }
 }
